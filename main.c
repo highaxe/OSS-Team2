@@ -7,7 +7,7 @@ double ToFahrenheit(double c); // 2026046021 심민규 추가
 
 int main() {
 	
-	pritnf("%d\n", CalculateBMI(70, 1.7)); 
+	pritnf("%,1f\n", CalculateBMI(70, 1.7)); 
 	printf("%d\n", IsEven(4));
 	printf("%d\n", Factorial(5));
 	printf("%.1f\n", ToFahrenheit(18));
