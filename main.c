@@ -3,12 +3,14 @@
 double CalculateBMI(double weight, double height);
 int IsEven(int n);   // 2026046028 허준혁 추가
 int Factorial(int n);    // 2026046016 맹은재 추가
+double ToFahrenheit(double c); // 2026046021 심민규 추가
 
 int main() {
 	
 	CalculateBMI(70, 1.7);
 	printf("%d\n", IsEven(4));
 	printf("%d\n", Factorial(5));
+	printf("%.1f\n", ToFahrenheit(18));
 	return 0;
 }
 
@@ -28,4 +30,8 @@ int Factorial(int n) {
     }
 
     return result;
+}
+
+double ToFahrenheit(double c) { // Celcius를 Fahrenheit로 변환
+	return c * 9 / 5 + 32;
 }
