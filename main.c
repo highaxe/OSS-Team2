@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-double CalculateBMI(double weight, double height);
+double CalculateBMI(double weight, double height); // 2026046012 오민식 추가
 int IsEven(int n);   // 2026046028 허준혁 추가
 int Factorial(int n);    // 2026046016 맹은재 추가
 double ToFahrenheit(double c); // 2026046021 심민규 추가
 
 int main() {
 	
-	CalculateBMI(70, 1.7);
+	pritnf("%d\n", CalculateBMI(70, 1.7)); 
 	printf("%d\n", IsEven(4));
 	printf("%d\n", Factorial(5));
 	printf("%.1f\n", ToFahrenheit(18));
