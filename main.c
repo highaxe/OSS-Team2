@@ -22,7 +22,7 @@ int IsEven(int n) {   // n이 짝수면 1, 홀수면 0 반환
 	return n % 2 == 0;
 }
 
-int Factorial(int n) {
+int Factorial(int n) {		// n 이하의 자연수를 모두 곱하는 함수
     int result = 1;
 
     for (int i = 1; i <= n; i++) {
